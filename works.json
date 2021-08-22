@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Dark Universe",
+        "link": "https://liamlkh.github.io/dark-universe/",
+        "type": "sketch",
+        "tags": "Three.js",
+        "about": "A simple three.js sketch.",
+        "color": "grey",
+        "image": "Black.jpg"
+    },
+    {
+        "title": "Some Cubes",
+        "link": "https://liamlkh.github.io/some-cubes/",
+        "type": "sketch",
+        "tags": "Three.js",
+        "about": "A three.js sketch experimenting on physics.",
+        "color": "#ff23ce",
+        "image": "Synthwave.jpg"
+    }
+]
