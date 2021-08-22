@@ -12,11 +12,12 @@ export const InfoContainer = styled.div`
     position: absolute;
     top: 10%;
     left: 3%;
+    padding-bottom: 0.5em;
     font-size: 20px;
-    min-height: 250px;
+    max-height: 90%;
+    overflow-y: scroll;
     width: 450px;
     max-width: 95%;
-    overflow: hidden;
     mask-image: linear-gradient(to left, black 99%, transparent 100%);
     --offset: 30px;
 
@@ -59,7 +60,7 @@ export const InfoTitle = styled.p`
     font-weight: bold;
     font-size: 3em;
     letter-spacing: 0.04em;
-    line-height: 0.8;
+    line-height: 1.1;
 `
 
 export const InfoType = styled.p`
@@ -89,15 +90,9 @@ export const InfoBottom = styled.div`
     font-weight: 100;
     font-style: italic;
     font-size: 0.7em;
-    bottom: 0;
-    position: absolute;
     width: 80%;
-    left: calc(var(--offset) - 1.5em);
+    margin-left: calc(var(--offset) - 1.5em);
     transition: all 0.5s ease-in-out;
-
-    @media (max-width: 400px) {
-        left: calc(var(--offset) - 1.5em);
-    }
 
     div:last-child {
         margin-left: 3em;

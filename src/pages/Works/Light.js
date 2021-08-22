@@ -84,7 +84,7 @@ const Show = ({ currentIndex }) => {
 
   return (
     <group ref={planeRef} position={[0, 3, 0]}>
-      <mesh castShadow>
+      <mesh castShadow position={[0, 0, -0.2]}>
         <boxGeometry attach="geometry" args={[10, 6, 0.1]} />
         <meshStandardMaterial transparent opacity={0}/>
       </mesh>
@@ -121,7 +121,7 @@ const Resize = ({ setPosition }) => {
       () => {
         const ratio = size.width / size.height
         const x = -4 + 12 * ratio / MAX_RATIO
-        const y = Math.min(-3, -9 + 6 * ratio / MAX_RATIO)
+        const y = Math.min(-3, -11 + 8 * ratio / MAX_RATIO)
         const z = Math.min(5, -5 + 10 * ratio / MAX_RATIO)
         setPosition([x, y, z])
       }
@@ -164,7 +164,7 @@ export default function WorksLight() {
           <Ground/>
           <Show currentIndex={currentIndex} />
         </group>
-        <Effects isGammaOn isAAOn />
+        <Effects isAAOn />
       </Suspense>
     </Canvas>
   )

@@ -89,9 +89,9 @@ const Ground = () => {
       resolution={512} 
       rotation={[-Math.PI / 2, 0, 0]}
       args={[100, 100]} 
-      mirror={0.4} 
+      mirror={0} 
       mixBlur={4} 
-      mixStrength={1} 
+      mixStrength={1.5} 
       position={[0, -0.8, 0]}
       rotation={[-Math.PI / 2, 0, Math.PI / 2]} 
       blur={[400, 100]}
@@ -112,7 +112,7 @@ const Resize = ({ setPosition }) => {
       () => {
         const ratio = size.width / size.height
         const x = -4 + 12 * ratio / MAX_RATIO
-        const y = Math.min(-3, -9 + 6 * ratio / MAX_RATIO)
+        const y = Math.min(-3, -11 + 8 * ratio / MAX_RATIO)
         const z = Math.min(5, -5 + 10 * ratio / MAX_RATIO)
         setPosition([x, y, z])
       }
@@ -144,7 +144,7 @@ export default function WorksDark() {
         </group>
          <ambientLight intensity={0.5} />
         <directionalLight position={[-20, 0, -10]} intensity={0.7} />
-        <Effects isGammaOn isAAOn>
+        <Effects isAAOn>
           <DarkModeTransition {...darkMode} />
         </Effects>
       </Suspense>

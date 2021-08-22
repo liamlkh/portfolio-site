@@ -5,8 +5,8 @@ const WorkDarkShader = {
 		tex: { value: null },
 		tex2: { value: null },
 		time: { value: 0.0 },
-		distortion: { value: 1.0 },
-		distortion2: { value: 7 },
+		distortion: { value: 1.5 },
+		distortion2: { value: 2 },
 		speed: { value: 0.9 },
 		rollSpeed: { value: 0 },
 		progress : { value: 0 }
