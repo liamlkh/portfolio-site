@@ -27,7 +27,7 @@ const Show = ({ currentIndex }) => {
 
   useEffect(() => {
     const image = store.getState().works.data[currentIndex].image
-    const texture = new THREE.TextureLoader().load(`/works/${image}`)
+    const texture = new THREE.TextureLoader().load(process.env.PUBLIC_URL + `/works/${image}`)
     if (isChanging == null) {
       materialRef.current.uniforms.tex.value = texture
       setIsChanging(false)
@@ -37,8 +37,6 @@ const Show = ({ currentIndex }) => {
       setIsChanging(true)
     }
   }, [currentIndex])
-
-  const texture = useTexture(`/works/Synthwave.jpg`) 
 
   useFrame((state, delta) => {
     camera.position.lerp(vec.set(
@@ -74,8 +72,7 @@ const Show = ({ currentIndex }) => {
         <planeGeometry attach="geometry" args={[10, 6]} />
         <shaderMaterial 
           ref={materialRef} 
-          args={[WorkDarkShader]} 
-          uniforms-tex-value={texture} 
+          args={[WorkDarkShader]}  
           attach="material" 
           transparent
         />

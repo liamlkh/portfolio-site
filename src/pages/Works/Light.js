@@ -57,7 +57,7 @@ const Show = ({ currentIndex }) => {
   useEffect(() => {
     const image = store.getState().works.data[currentIndex].image
     const direction = store.getState().works.direction
-    const texture = new THREE.TextureLoader().load(`/works/${image}`)
+    const texture = new THREE.TextureLoader().load(process.env.PUBLIC_URL + `/works/${image}`)
     setDirection(direction)
 
     if (direction == null) {

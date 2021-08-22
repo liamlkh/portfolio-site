@@ -12,7 +12,7 @@ document.body.classList.add("not-ready")
 function App() {
 
   useEffect(async () => {
-    const response = await fetch('/works.json')
+    const response = await fetch(process.env.PUBLIC_URL + '/works.json')
     const works = await response.json()
     store.dispatch({ type: 'INIT_WORKS', data: works })
     document.body.classList.add("is-light")
