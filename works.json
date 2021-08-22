@@ -1,12 +1,12 @@
 [
     {
-        "title": "Dark Universe",
-        "link": "https://liamlkh.github.io/dark-universe/",
+        "title": "Space Tunnel",
+        "link": "https://liamlkh.github.io/space-tunnel/",
         "type": "sketch",
         "tags": "Three.js",
         "about": "A simple three.js sketch.",
-        "color": "grey",
-        "image": "Black.jpg"
+        "color": "#40a0bd",
+        "image": "space-tunnel.png"
     },
     {
         "title": "3D Website",
@@ -14,8 +14,8 @@
         "type": "website",
         "tags": "React.js, Three.js",
         "about": "A 3D website demo.\n Use mouse or keyboard to move to different sections.",
-        "color": "grey",
-        "image": "Black.jpg"
+        "color": "#5ecca9",
+        "image": "3d-website.png"
     },
     {
         "title": "Panorama Editor",
@@ -23,17 +23,17 @@
         "type": "website",
         "tags": "React.js, Three.js",
         "about": "Create panoramas and add items to the scene. \n *Double Click to add items",
-        "color": "grey",
-        "image": "Black.jpg"
+        "color": "#d1a480",
+        "image": "panorama-editor.png"
     },
     {
-        "title": "Space Tunnel",
-        "link": "https://liamlkh.github.io/space-tunnel/",
+        "title": "Dark Universe",
+        "link": "https://liamlkh.github.io/dark-universe/",
         "type": "sketch",
         "tags": "Three.js",
         "about": "A simple three.js sketch.",
-        "color": "#ff23ce",
-        "image": "Synthwave.jpg"
+        "color": "#999999",
+        "image": "dark-universe.png"
     },
     {
         "title": "Some Cubes",
@@ -41,7 +41,7 @@
         "type": "sketch",
         "tags": "Three.js",
         "about": "A three.js sketch experimenting on physics.",
-        "color": "#ff23ce",
-        "image": "Synthwave.jpg"
+        "color": "#ebb0b0",
+        "image": "some-cubes.png"
     }
 ]
