@@ -9,6 +9,33 @@
         "image": "Black.jpg"
     },
     {
+        "title": "3D Website",
+        "link": "https://liamlkh.github.io/3d-website-demo/",
+        "type": "website",
+        "tags": "React.js, Three.js",
+        "about": "A 3D website demo.\n Use mouse or keyboard to move to different sections.",
+        "color": "grey",
+        "image": "Black.jpg"
+    },
+    {
+        "title": "Panorama Editor",
+        "link": "https://liamlkh.github.io/panorama-editor-demo/",
+        "type": "website",
+        "tags": "React.js, Three.js",
+        "about": "Create panoramas and add items to the scene. \n *Double Click to add items",
+        "color": "grey",
+        "image": "Black.jpg"
+    },
+    {
+        "title": "Space Tunnel",
+        "link": "https://liamlkh.github.io/space-tunnel/",
+        "type": "sketch",
+        "tags": "Three.js",
+        "about": "A simple three.js sketch.",
+        "color": "#ff23ce",
+        "image": "Synthwave.jpg"
+    },
+    {
         "title": "Some Cubes",
         "link": "https://liamlkh.github.io/some-cubes/",
         "type": "sketch",
