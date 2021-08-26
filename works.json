@@ -43,5 +43,14 @@
         "about": "A three.js sketch experimenting on physics.",
         "color": "#ebb0b0",
         "image": "some-cubes.png"
+    },
+    {
+        "title": "3D Motion Design Demo Reel",
+        "link": "https://www.youtube.com/watch?v=ThSOW59200U",
+        "type": "Reel",
+        "tags": "3D Motion Design, VFX",
+        "about": "My 3D motion design reel.",
+        "color": "#7be8db",
+        "image": "demo-reel.png"
     }
 ]
