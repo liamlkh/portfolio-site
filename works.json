@@ -1,5 +1,14 @@
 [
     {
+        "title": "Petahood",
+        "link": "https://petahood.com/en-HK",
+        "type": "website",
+        "tags": "",
+        "about": "",
+        "color": "#913934",
+        "image": "porsche.png"
+    },
+    {
         "title": "Porsche Born to race",
         "link": "https://porschehk.com/en/born-to-race/",
         "type": "website",
@@ -18,24 +27,6 @@
         "image": "bmw.png"
     },
     {
-        "title": "Space Tunnel",
-        "link": "https://liamlkh.github.io/space-tunnel/",
-        "type": "sketch",
-        "tags": "Three.js",
-        "about": "A simple three.js sketch.",
-        "color": "#40a0bd",
-        "image": "space-tunnel.png"
-    },
-    {
-        "title": "3D Website",
-        "link": "https://liamlkh.github.io/3d-website-demo/",
-        "type": "website",
-        "tags": "React.js, Three.js",
-        "about": "A 3D website demo.\n Use mouse or keyboard to move to different sections.",
-        "color": "#5ecca9",
-        "image": "3d-website.png"
-    },
-    {
         "title": "Panorama Editor",
         "link": "https://liamlkh.github.io/panorama-editor-demo/",
         "type": "website",
@@ -43,23 +34,5 @@
         "about": "Create panoramas and add items to the scene. \n *Double Click to add items",
         "color": "#d1a480",
         "image": "panorama-editor.png"
-    },
-    {
-        "title": "Dark Universe",
-        "link": "https://liamlkh.github.io/dark-universe/",
-        "type": "sketch",
-        "tags": "Three.js",
-        "about": "A simple three.js sketch.",
-        "color": "#999999",
-        "image": "dark-universe.png"
-    },
-    {
-        "title": "Some Cubes",
-        "link": "https://liamlkh.github.io/some-cubes/",
-        "type": "sketch",
-        "tags": "Three.js",
-        "about": "A three.js sketch experimenting on physics.",
-        "color": "#ebb0b0",
-        "image": "some-cubes.png"
     }
 ]
