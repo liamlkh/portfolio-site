@@ -68,12 +68,26 @@ export const Container = styled.div`
         pointer-events: none;
     }
 
-    p {
+    & > p {
         position: relative;
-        padding-top: 30%;
+        padding-top: 23%;
         user-select: text;
         z-index: 10;
         text-align: center;
+        user-select: none;
+
+        @media (max-width: 400px) {
+            font-size: 0.8rem;
+        }
+
+        p {
+            font-size: 0.9em;
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: underline;
+        }
     }
 `
 

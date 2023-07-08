@@ -32,11 +32,27 @@ export default function About() {
           fill={isDark ? "none" : "rgba(255, 255, 255, 0.5)"} 
         />
         <p>
-          Hi, my name is Liam.
-          <br/>
-          I’m a front-end / creative developer.
-          <br/><br/>
-          Please contact me at liam.lk.hui@gmail.com
+          My tech stack includes:
+          <p>
+            JavaScript, TypeScript
+            <br/>
+            React, Next.js, React Native, Redux
+            <br/>
+            Electron
+            <br/>
+            Node.js
+            <br/>
+            Python
+            <br/>
+            Dart, Flutter
+            <br/>
+            Amazon Web Services (Amplify, Cognito, Lambda)
+            <br/>
+            Canvas, WebGL, Three.js, Pixi.js
+            <br/>
+            CSS, SASS, Bootstrap, Styled Components
+          </p>
+          Please contact me at <a href="mailto:liam.lk.hui@gmail.com">liam.lk.hui@gmail.com</a>
         </p>      
       </Container>
     </Wrapper>

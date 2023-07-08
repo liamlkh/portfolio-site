@@ -15,7 +15,7 @@ export const InfoContainer = styled.div`
     padding-bottom: 0.5em;
     font-size: 20px;
     max-height: 90%;
-    overflow-y: scroll;
+    overflow-y: auto;
     width: 450px;
     max-width: 95%;
     mask-image: linear-gradient(to left, black 99%, transparent 100%);
