@@ -25,35 +25,20 @@ export default function About() {
         onMouseLeave={() => setSpring({ xys: [0, 0, 1] })}
         style={{ transform: spring.xys.interpolate(trans) }}
       >
-        <div/>
+        {/* <div/> */}
         <Heptagon 
           strokeWidth={isDark ? "3px" : "1px"}
           stroke={isDark ? "#a1377a" : "black"}
           fill={isDark ? "none" : "rgba(255, 255, 255, 0.5)"} 
         />
-        <p>
-          My tech stack includes:
+        <div>
           <p>
-            JavaScript, TypeScript
+            I have five years of experience building responsive, high-performance web and mobile applications with a strong focus on user experience. Specialized in React and React Native, with additional experience in Flutter and other modern technologies.
             <br/>
-            React, Next.js, React Native, Redux
             <br/>
-            Electron
-            <br/>
-            Node.js
-            <br/>
-            Python
-            <br/>
-            Dart, Flutter
-            <br/>
-            Amazon Web Services (Amplify, Cognito, Lambda)
-            <br/>
-            Canvas, WebGL, Three.js, Pixi.js
-            <br/>
-            CSS, SASS, Bootstrap, Styled Components
-          </p>
-          Please contact me at <a href="mailto:liam.lk.hui@gmail.com">liam.lk.hui@gmail.com</a>
-        </p>      
+            Please contact me at <a href="mailto:liam.lk.hui@gmail.com">liam.lk.hui@gmail.com</a>
+          </p>      
+        </div>
       </Container>
     </Wrapper>
   )

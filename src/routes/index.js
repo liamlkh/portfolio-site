@@ -52,7 +52,7 @@ export default function Router() {
     <ConnectedRouter history={history}>
       <Routes/>
       <NavBar/>
-      <DarkButton/>
+      {/* <DarkButton/> */}
       {!isMobile && <Cursor/>}
     </ConnectedRouter>
   )

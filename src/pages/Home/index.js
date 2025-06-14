@@ -51,11 +51,11 @@ export default function Home() {
         <MaskedElement>
           <Title>
             <h1 className='reveal-text'>Hi, I’m Liam</h1>
-            <h2 className='reveal-text'>software developer</h2>
+            <h2 className='reveal-text'>frontend developer</h2>
           </Title>
           <Title className="is-back">
             <h1 className='reveal-text'>Hi, I’m Liam</h1>
-            <h2 className='reveal-text'>software developer</h2>
+            <h2 className='reveal-text'>frontend developer</h2>
           </Title>
         </MaskedElement>
       }

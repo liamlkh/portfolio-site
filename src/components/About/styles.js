@@ -15,12 +15,15 @@ export const Wrapper = styled.div`
 `;
     
 export const Container = styled.div`
-    width: 400px;
-    height: 400px;
+    width: 650px;
+    height: 650px;
     font-family: CocoSharp;
     font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    @media (max-width: 400px) {
+    @media (max-width: 450px) {
         width: 320px;
         height: 320px;
     }
@@ -30,19 +33,9 @@ export const Container = styled.div`
         filter: drop-shadow(5px 5px 5px red) invert(35%);
     }
 
-    div:nth-child(1) {
-        float: left;
-        height: 100%;
-        width: 50%;
-        shape-outside: polygon(
-            0 0,
-            100% 1%,
-            20% 22%,
-            0% 65%,
-            54% 99%,
-            0 100%
-        );
-        shape-margin: 1%;
+    div:last-child {
+        width: 80%;
+        line-height: 2;
     }
 
     &::before {
@@ -59,6 +52,7 @@ export const Container = styled.div`
             100% 100%
         );
         shape-margin: 1%;
+        position: absolute;
     }
 
     svg {
@@ -68,21 +62,14 @@ export const Container = styled.div`
         pointer-events: none;
     }
 
-    & > p {
+    p {
         position: relative;
-        padding-top: 23%;
         user-select: text;
         z-index: 10;
-        text-align: center;
-        user-select: none;
+        font-size: 1em;
 
-        @media (max-width: 400px) {
-            font-size: 0.8rem;
-        }
-
-        p {
-            font-size: 0.9em;
-            margin: 10px 0;
+        @media (max-width: 450px) {
+            font-size: 0.6rem;
         }
 
         a {
